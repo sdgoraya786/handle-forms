@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  color: rgb(136, 134, 134);
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 20%; */
+  padding-top: 10%;
+}
+h1 {
+  margin-bottom: 25px;
+}
+.quantity {
+  margin-top: 30px;
+  background-color: rgb(212, 208, 208);
+  width: 14%;
+  text-align: center;
+  border-radius: 4px;
+}
+.quantity_input {
+  width: 34%;
+  margin: 3px;
+  padding: 13px 0;
+  text-align: center;
+  border: 0;
+  border-radius: 2px;
+  color: rgb(88, 87, 87);
+}
+.quantity_input:focus {
+  outline: 0;
+}
+
+.quantity_minus,
+.quantity_plus {
+  color: rgb(14, 14, 179);
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 6px 16px 14px 16px;
+}
+.quantity_minus:hover,
+.quantity_plus:hover {
+  background-color: rgb(71, 70, 70);
+  color: white;
+  border-radius: 2px;
+}
