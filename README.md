@@ -1,13 +1,13 @@
 # Getting Started with Create React App
 
-# `Hooks`
+## `Hooks`
 
-> -----> Introduction to Hooks
-> -----> challenges
-> ---------> form(with Hooks)
-> ---------> TodoAApp(with Hooks)
-> -----> shoppingCart
+### Introduction to Hooks
+### challenges
+###### --> form(with Hooks)
+###### --> TodoApp(with Hooks)
+### shoppingCart
 
-# `Redux, Redux2, Redux3`
+## `Redux, Redux2, Redux3`
 
-# `styled-components`
+## `styled-components`
